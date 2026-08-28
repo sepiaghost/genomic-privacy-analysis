@@ -64,7 +64,7 @@ source("scripts/06_visualization.R")
 Total runtime: a few minutes, thanks to the small dataset — no multi-hour
 downloads like a TCGA-scale project.
 
-## Method notes (read before citing results)
+## Method notes 
 
 - **Sensitivity via clipping:** the Laplace mechanism requires bounding how
   much one individual could possibly change the output. Every count is
@@ -84,8 +84,6 @@ downloads like a TCGA-scale project.
   protective effect at its edges.
 
 ## Results
-
-*(Fill in after running the pipeline — replace with your actual numbers.)*
 
 - At epsilon = **Inf** (no privacy): F1 = ___, membership inference
   accuracy = ___
